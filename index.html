@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Mode Toggle</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-        <form class="form">
-            <label for="name_name"></label>First Name
-            <input type="text" id="first_name">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="formInfo">
+        <div class="formDetails">
+          <label for="name_name" class="labelElement"></label>First Name
+          <input type="text" id="first_name" placeholder="Enter first name" />
 
-            <label for="last_name"></label>Last Name
-            <input type="text" id="last_name">
+          <label for="last_name"></label>Last Name
+          <input type="text" id="last_name" placeholder="Enter last name"/>
 
-            <label for="email"></label>Email
-            <input type="text" id="email">
+          <label for="email"></label>Email
+          <input type="text" id="email" placeholder="Enter email"/>
 
-            <label for="textarea"></label>Address
-            <textarea name="textarea" id="textarea"></textarea>
+          <label for="textarea"></label>Address
+          <textarea name="textarea" id="textarea"></textarea>
 
-            <select name="select" id="select">
-                <option value="">Select</option>
-                <option value="1">Frontend Developer</option>
-                <option value="">Backend Developer</option>
-                <option value="">Full Stack Developer</option>
-            </select>
+          <select name="select" id="select">
+            <option value="">Select</option>
+            <option value="1">Frontend Developer</option>
+            <option value="">Backend Developer</option>
+            <option value="">Full Stack Developer</option>
+          </select>
 
-            <button class="btn">Submit</button>
-
-        </form>
-</body>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
