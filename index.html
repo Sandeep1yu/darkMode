@@ -8,10 +8,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <input type="checkbox" id="dark-mode" class="input">
-    <label for="dark-mode" class="label1">
-        <div class="circle"></div>
-    </label>
-    
+        <form class="form">
+            <label for="name_name"></label>First Name
+            <input type="text" id="first_name">
+
+            <label for="last_name"></label>Last Name
+            <input type="text" id="last_name">
+
+            <label for="email"></label>Email
+            <input type="text" id="email">
+
+            <label for="textarea"></label>Address
+            <textarea name="textarea" id="textarea"></textarea>
+
+            <select name="select" id="select">
+                <option value="">Select</option>
+                <option value="1">Frontend Developer</option>
+                <option value="">Backend Developer</option>
+                <option value="">Full Stack Developer</option>
+            </select>
+
+            <button class="btn">Submit</button>
+
+        </form>
 </body>
 </html>
